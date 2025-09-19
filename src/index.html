@@ -16,13 +16,14 @@
 </head>
 
 <body>
+    <!-- Шапка сайта -->
     <header class="site-header">
         <button class="theme-toggle" type="button" aria-pressed="false">Тема</button>
         <nav class="site-nav" aria-label="Основная навигация">
             <ul class="site-nav__list">
                 <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="index.html">Главная</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="about.html">О нас</a></li>
-                <li class="site-nav__item"><a class="site-nav__link site-nav__link--cta" href="#contacts">Связаться</a>
+                <li class="site-nav__item"><a class="site-nav__link site-nav__link--cta" href="contacts.html">Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -34,18 +35,19 @@
         <section id="services">
             <h2>Наши услуги</h2>
             <!-- Браузер сам выбирает лучший ресурс по ширине контейнера -->
-            <img src="../images/cat.jpg" srcset="../images/cat.jpg 640w, ../images/cat.jpg 960w, ../images/cat.jpg 1280w" sizes="(max-width: 700px) 92vw, (max-width: 1200px) 640px, 960px" alt="Котик"
+            <img src="../images/macan.jpg" srcset="../images/macan.jpg 640w, ../images/cat.jpg 960w, ../images/macan.jpg 1280w" sizes="(max-width: 700px) 92vw, (max-width: 1200px) 640px, 960px" alt="Котик"
                 loading="lazy">
             <p>Описание предоставляемых услуг...</p>
-            <a href="#contacts">Связаться с нами</a> <!-- Якорная ссылка внутри страницы -->
         </section>
         <!-- Секция 2 с якорем -->
         <section id="portfolio">
             <h2>Портфолио</h2>
-            <p>Примеры наших работ...</p>      <iframe
+            <p>Примеры наших работ...</p>
+            
+      <iframe
         width="720"
         height="405"
-        src="https://rutube.ru/play/embed/d693de649c81bf09a6839e3b781f8a3a"
+        src="https://rutube.ru/play/embed/bc4103bc1dd2b38d5393fad14485686a"
         style="border: none;"
         allow="clipboard-write; autoplay"
         allowFullScreen
@@ -56,8 +58,9 @@
         <section id="contacts">
             <h2>Контактная информация</h2>
             <p>Наши контакты...</p>
+             <a href="contacts.html">Связаться с нами</a> <!-- Ссылка на отдельную страницу -->
     </main>
-    <a href="contacts.html">Подробнее</a> <!-- Ссылка на отдельную страницу -->
+   
     </section>
     <section>
         <!-- Кнопка открытия модалки -->
